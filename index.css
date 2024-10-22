@@ -64,11 +64,17 @@ body {
 .button-area button:active{
     background-color: lightblue;
 }
+
+footer {
+   color: white;
+   margin-top: 200px;
+   
+}
 p {
     color: white;
 }
 
-/* Mobile devices (up to 600px) */
+
 @media (max-width: 600px) {
     .container {
         width: 90%;
@@ -98,7 +104,7 @@ p {
     }
 }
 
-/* Tablet devices (600px to 900px) */
+
 @media (min-width: 601px) and (max-width: 900px) {
     .container {
         width: 80%;
@@ -128,7 +134,7 @@ p {
     }
 }
 
-/* Large screens (more than 900px) */
+
 @media (min-width: 901px) {
     .container {
         width: 550px;
